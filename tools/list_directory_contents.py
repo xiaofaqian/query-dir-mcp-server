@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 
 def list_directory_contents(
-    directory_path: Annotated[str, "要查询的目录完整路径"]
+    directory_path: Annotated[str, "要查询的目录系统完整路径"]
 ) -> Dict[str, Any]:
     """
     列出指定目录下所有直接子目录和文件的完整系统路径
